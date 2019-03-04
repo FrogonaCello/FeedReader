@@ -122,12 +122,10 @@ $(function() {
         beforeEach(done => {
             loadFeed(0, () => {
                 firstFeed = $('.feed').html();
+                loadFeed(1, () => {
+                    secondFeed = $('.feed').html();
                 done();
-            });
-            
-            loadFeed(1, () => {
-                secondFeed = $('.feed').html();
-                done();
+                });
             });
         });
 
