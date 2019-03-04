@@ -6,6 +6,10 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 The Page shows News Feeds out of 4 sections: "Udacity Blog", "CSS Tricks", "HTML 5 Rocks", "Linear Digressions". All of these can be clicked through the slide menu, which is visible only, when needed and otherwise hidden.
 
+# How to run the Code
+
+You run the code by cloning or copying the repository and then opening index.html with a browser, you like.
+
 # Test Suites
 
 The **first test suite** ensures, that the 4 sections are loaded and that all of the sections respectively contain a name and a url. 
